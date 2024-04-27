@@ -15,8 +15,8 @@ vim.cmd("set nu rnu")
 vim.cmd("set numberwidth=4")
 vim.cmd("set scrolloff=7")
 
-vim.cmd("map <leader>l <C-w>l")
-vim.cmd("map <leader>k <C-w>k")
-vim.cmd("map <leader>j <C-w>j")
-vim.cmd("map <leader>h <C-w>h")
+vim.cmd("map <C-l> <C-w>l")
+vim.cmd("map <C-k> <C-w>k")
+vim.cmd("map <C-j> <C-w>j")
+vim.cmd("map <C-h> <C-w>h")
 
