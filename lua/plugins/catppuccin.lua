@@ -1,11 +1,11 @@
 return {
-  --Catppucin: Coloscheme, pastel; green/blue/purple
-  "catppuccin/nvim",
+ --[[ "catppuccin/nvim",
   name = "catppuccin",
   priority = 1000,
-  --remove comment to load catppuccin as theme
-  --[[  config = function()
+  config = function()
+    local config = require("catppuccin")
+    config.setup({ flavour = "frappe" })
     vim.cmd.colorscheme "catppuccin"
-  end
-  --]]
+
+  end,]]--
 }

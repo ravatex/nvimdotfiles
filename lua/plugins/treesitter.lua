@@ -6,6 +6,7 @@ return {
   config = function()
     local config = require("nvim-treesitter.configs")
     config.setup({
+      ensure_installed = {"html"},
       auto_install = true,
       highlight = { enable = true },
       indent = { enable = true },

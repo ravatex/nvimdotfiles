@@ -12,3 +12,6 @@ let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
 
 set conceallevel=1
 let g:tex_conceal='abdmgs'
+
+
+set linebreak
